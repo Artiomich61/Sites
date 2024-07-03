@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+body{
+    background-color: #1f1f1f;
+    margin: 0%;
+    padding: 0%;
+}
+
+#ClickerBox{
+    width: 275px;
+    height: 325px;
+    border: 2px solid darkgray;
+    border-radius: 20px 50px;
+    background: linear-gradient(to bottom right, #0e0e0e, rgb(0, 0, 0));
+    margin: 1%;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Cherry Bomb One';
+    font-size: 24px;
+    color: white;
+    text-shadow: #ff4c00 1px 1px;
+}
+
+#ClickerText{
+    font-family: 'Cherry Bomb One';
+    font-size: 36px;
+    width: 212px;
+    height: 75px;
+    color: #d9d9d9;
+    text-shadow: #ff4c00 2px 2px 2px;
+    margin-left: 34px;
+    margin-top: 24px;
+}
+
+#ClickerButton{
+    width: 130px;
+    height: 64px;
+    border: 1px solid;
+    border-radius: 20px 50px;
+    margin-top: 50px;
+    background: linear-gradient(to bottom right, white, rgb(92, 92, 92));
+}
+
+#ClickerButton:active{
+    background: linear-gradient(to top left, white, rgb(92, 92, 92));
+}
+
+#t1{
+    font-family: 'Cherry Bomb One';
+    font-size: 28px;
+    padding: 0%;
+    text-align: center;
+    margin-top: 8px;
+    color: #000000;
+    text-shadow: #ff4c00 1px 1px;
+}

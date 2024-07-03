@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles\main.css">
+    <title>Main Page</title>
+</head>
+<body>
+    <div id="ClickerBox">
+        Clicker
+        <p id="ClickerText">Your score: 1234567890</p>
+        <button id="ClickerButton" onclick="onClickButton(document.getElementById('ClickerText'))">
+            <p id="t1">Click!</p>
+        </button>
+    </div>
+    <script src="js/file.js" onload="onPageLoad(document.getElementById('ClickerText'))"></script>
+</body>
+</html>
